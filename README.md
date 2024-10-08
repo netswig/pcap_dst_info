@@ -6,6 +6,8 @@ Get destination IP infomation for a specific host from a PCAP.
 
 pcap_dst_info is a tool which takes a user provided pcap/pcapng file and a source IP address and provides a list of destination IP's and protocols/ports. The tool then gathers, reverse DNS lookups and whois data for each destination IP and displays in the console.
 
+This tool requires tshark to be installed. [Tshark Install](https://tshark.dev/setup/install/)
+
 ## Setup & Example
 
 ### Windows
